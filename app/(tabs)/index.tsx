@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useAudioControls } from '@/hooks/useAudioControls';
+import { useAudioControls } from '@/hooks/audio/useAudioControls';
 import { audioData } from '@/constants/data';
 import { styles } from '@/constants/styles';
 import { Timer } from '@/components/timer/Timer';
